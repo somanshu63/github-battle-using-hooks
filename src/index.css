@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap");
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.dark {
+  background-color: rgb(28, 32, 34);
+}
+.bg-gray {
+  background-color: rgb(235, 235, 235);
+}
+.bg-gray2 {
+  background-color: rgb(36, 40, 42);
+}
+.light-gray {
+  color: #dadada;
+}
+.yellow {
+  color: #fed838;
+}
+.gray {
+  color: #727272;
+}
+.admin {
+  color: #fdbf74;
+}
+.btn-color {
+  color: #4a4a4a;
+}
+.btn-color-day {
+  color: #c7c7c7;
+}
+.input-bg {
+  background-color: #141618;
+}
+.input-bg-day {
+  background-color: #fafafa;
+}
+.input-placeholder-day {
+  color: #757575;
+}
+.input-placeholder {
+  color: #64726f;
+}
+.btn-bg {
+  background-color: #292929;
+}
+.btn-bg-day {
+  background-color: #f2f2f2;
+}
+.active {
+  color: rgb(201, 3, 3);
+}
+
+.text-27 {
+  font-size: 27px;
+}
+.text-9rem {
+  font-size: 9rem;
+}
+.m-one {
+  margin: 2px;
+}
+.lightBlue {
+  color: rgb(129, 195, 245);
+}
+.lightRed {
+  color: rgb(241, 138, 147);
+}
+.radius {
+  border-radius: 50%;
+}
